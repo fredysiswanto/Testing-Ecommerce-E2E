@@ -1,0 +1,17 @@
+{ 
+  "baseUrl":"http://127.0.0.1:8000/",
+  "chromeWebSecurity": false,
+  "viewportWidth": 1280,
+  "viewportHeight": 800,
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+      "reporterEnabled": "mochawesome",
+      "mochawesomeReporterOptions": {
+          "reportDir": "cypress/reports/mocha",
+          "quite": true,
+          "overwrite": false,
+          "html": false,
+          "json": true
+      }
+  }
+}
