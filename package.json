@@ -12,8 +12,8 @@
     "generate-report": "marge cypress/reports/mochareports/report.json -f report -o cypress/reports/mochareports",
     "posttest": "npm run combine-reports && npm run generate-report",
     
-    "test": "cypress open ./cypress/integration/e-ecom/**/*.js",
-    "test-report": "npm run scripts || npm run posttest"
+    "test-report": "npm run scripts || npm run posttest",
+    "test": "cypress open ./cypress/integration/e-ecom/**/*.js"
   },
   "keywords": [],
   "author": "",
