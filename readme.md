@@ -9,8 +9,7 @@
 
 ## About The Project
 
-Project testing untuk website ecommerce fullcover 100% seluruh main fungsi.
-Testing end-2-end menggunakan cypress.io, web yang di tes menggukanan laravel 8.
+Testing API dan E2E Website
 
 <!-- GETTING STARTED -->
 

@@ -1,0 +1,99 @@
+{
+  "list-url": {
+    "pet": [
+      ["POST", "/pet/0/uploadImage"],
+      ["POST", "/pet"],
+      "/pet/findByStatus",
+      "/pet/findByTags",
+      "/pet/0"
+    ],
+    "store": ["/store/order", "/store/order/{number}", "/store/inventory"],
+    "user": [
+      "/user/createWithArray",
+      "/user/createWithList",
+      "/user/{string}",
+      "/user/login",
+      "/user/logout",
+      "/user"
+    ]
+  },
+
+  "list-user": [
+    {
+      "id": 0,
+      "username": "fredy00",
+      "firstName": "fredy",
+      "lastName": "kosong kosong",
+      "email": "00@fredy.com",
+      "password": "batam123",
+      "phone": "08007703900",
+      "userStatus": 0
+    },
+    {
+      "id": 1,
+      "username": "fredy01",
+      "firstName": "fredy",
+      "lastName": "kosong satu",
+      "email": "01@fredy.com",
+      "password": "batam123",
+      "phone": "08007703901",
+      "userStatus": 0
+    },
+    {
+      "id": 2,
+      "username": "fredy02",
+      "firstName": "fredy",
+      "lastName": "kosong dua",
+      "email": "02@fredy.com",
+      "password": "batam123",
+      "phone": "08007703902",
+      "userStatus": 0
+    },
+    {
+      "id": 3,
+      "username": "fredy03",
+      "firstName": "fredy",
+      "lastName": "kosong tiga",
+      "email": "00@fredy.com",
+      "password": "batam123",
+      "phone": "08007703903",
+      "userStatus": 0
+    },
+    {
+      "id": 4,
+      "username": "fredy04",
+      "firstName": "fredy",
+      "lastName": "kosong empat",
+      "email": "04@fredy.com",
+      "password": "batam123",
+      "phone": "08007703904",
+      "userStatus": 0
+    },
+    {
+      "id": 5,
+      "username": "fredy05",
+      "firstName": "fredy",
+      "lastName": "kosong lima",
+      "email": "05@fredy.com",
+      "password": "batam123",
+      "phone": "08007703905",
+      "userStatus": 0
+    }
+  ],
+  "pet": {
+    "id": 121212,
+    "category": {
+      "id": 0,
+      "name": "Cat"
+    },
+    "name": "Pussh Cat",
+    "photoUrls": ["string"],
+    "tags": [
+      {
+        "id": 0,
+        "name": "Kucing Kampung"
+      }
+    ],
+    "status": "available"
+  }
+}

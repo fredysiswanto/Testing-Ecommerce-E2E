@@ -1,5 +1,5 @@
 {
-  "name": "e2e-edot-web",
+  "name": "e2e-web",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,13 +13,14 @@
     "posttest": "npm run combine-reports && npm run generate-report",
     "test-report": "npm run scripts || npm run posttest",
     "test": "cypress open ./cypress/integration/e-ecom/**/*.js",
-    "test-api": "cypress open ./cypress/integration/e-ecom/06_api_testing/*.js"
+    "test-api": "cypress open --config-file api-config.json",
+    "test-e2e": "cypress open --config-file bibit-config.json"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^8.0.0",
+    "cypress": "^9.4.1",
     "cypress-multi-reporters": "^1.5.0",
     "cypress-social-logins": "^1.11.3",
     "mocha": "^9.1.1",

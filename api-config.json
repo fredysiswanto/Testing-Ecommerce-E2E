@@ -1,0 +1,18 @@
+{
+  "baseUrl": "https://petstore.swagger.io/v2",
+  "integrationFolder": "cypress/integration/api",
+  "chromeWebSecurity": false,
+  "viewportWidth": 1280,
+  "viewportHeight": 800,
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "reporterEnabled": "mochawesome",
+    "mochawesomeReporterOptions": {
+      "reportDir": "cypress/reports/mocha",
+      "quite": true,
+      "overwrite": false,
+      "html": false,
+      "json": true
+    }
+  }
+}
