@@ -218,7 +218,7 @@ describe('Demo My Skill', () => {
       });
     });
   });
-  context.only('Chaining Test', () => {
+  context('Chaining Test', () => {
     const idPet = '120';
     let dataBuyer = {
       user: {},

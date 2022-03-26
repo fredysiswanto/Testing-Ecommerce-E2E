@@ -18,7 +18,7 @@ Testing API dan E2E Website
 - menjalankan testing
 
   ```sh
-  npm run test-ecom
+  npm run test
 
   ```
 
@@ -29,4 +29,32 @@ Testing API dan E2E Website
 
   ```
 
-<!-- ROADMAP -->
+- menjalankan testing api
+
+  ```sh
+  npm run test-api
+
+  ```
+
+- generate report test api
+
+  ```sh
+  npm run test-report-api
+
+  ```
+
+- menjalankan testing e2e
+
+  ```sh
+  npm run test-e2e
+
+  ```
+
+- generate report test e2e
+
+  ```sh
+  npm run test-report-e2e
+
+  ```
+
+  <!-- ROADMAP -->
