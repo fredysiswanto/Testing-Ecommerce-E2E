@@ -57,8 +57,10 @@ Testing API dan E2E Website
 
   ```
 
-  [see Demo video] (https://www.youtube.com/playlist?list=PLm2QKf1dhlBAZ2MUieV2sAV5-Vdvl-ICh)
-  [see Testing API] (https://youtu.be/H9hjUaspYJY)
-  [see Testing E2E] (https://youtu.be/4Gx-qsFh0bo)
+  [see Demo video](https://www.youtube.com/playlist?list=PLm2QKf1dhlBAZ2MUieV2sAV5-Vdvl-ICh)
+
+  [see Testing API](https://youtu.be/H9hjUaspYJY)
+
+  [see Testing E2E](https://youtu.be/4Gx-qsFh0bo)
 
     <!-- ROADMAP -->
