@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://petstore.swagger.io/v2",
+  "baseUrl": "https://stockbit.com/",
   "integrationFolder": "cypress/integration/e2e",
   "chromeWebSecurity": false,
   "viewportWidth": 1280,

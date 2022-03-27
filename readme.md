@@ -5,7 +5,7 @@
     <img src="https://fredysiswanto.github.io/projects/assets/images/logo_white.svg" alt="Logo" width="auto" height="50">
   </a>
 
-  <h3 align="center">Testing Ecommerce E2E</h3>
+  <h3 align="center">Testing E2E</h3>
 
 ## About The Project
 
@@ -57,4 +57,8 @@ Testing API dan E2E Website
 
   ```
 
-  <!-- ROADMAP -->
+  [see Demo video] (https://www.youtube.com/playlist?list=PLm2QKf1dhlBAZ2MUieV2sAV5-Vdvl-ICh)
+  [see Testing API] (https://youtu.be/H9hjUaspYJY)
+  [see Testing E2E] (https://youtu.be/4Gx-qsFh0bo)
+
+    <!-- ROADMAP -->

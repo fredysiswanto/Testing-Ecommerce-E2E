@@ -33,6 +33,20 @@
 //   cy.get('#txt-password').type(password);
 //   cy.get('button[type=submit]').contains('Log in').click();
 // });
+Cypress.Commands.overwrite('type', (originalFn, element, text, options) => {
+  if (options && options.sensitive) {
+    // turn off original log
+    options.log = false;
+    // create our own log with masked message
+    Cypress.log({
+      $el: element,
+      name: 'type',
+      message: '*'.repeat(text.length),
+    });
+  }
+
+  return originalFn(element, text, options);
+});
 
 // ambil data dari fixture
 Cypress.Commands.add('getDataFixture', (file, obj) => {
@@ -130,4 +144,13 @@ Cypress.Commands.add('login', (url, username, password) => {
     expect(res.body.message).to.include('logged in user session');
     cy.log('Berhasil Login');
   });
+});
+
+Cypress.Commands.add('formValidate', (id, text, err) => {
+  cy.get(id)
+    .type(text)
+    .parent()
+    .should('include.class', 'errorfield')
+    .contains(err)
+    .should('be.visible');
 });

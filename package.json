@@ -17,8 +17,8 @@
     "test": "cypress open ./cypress/integration/**/*.js",
     "test-api-gui": "cypress open --config-file api-config.json",
     "test-api": "cypress run --config-file api-config.json",
-    "test-e2e-gui": "cypress open --config-file bibit-config.json",
-    "test-e2e": "cypress run --config-file bibit-config.json"
+    "test-e2e-gui": "cypress open --config-file stockbit-config.json",
+    "test-e2e": "cypress run --config-file stockbit-config.json"
   },
   "keywords": [],
   "author": "",
